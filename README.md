@@ -1,5 +1,5 @@
  Project Title: African Product Recognition Model (Open Source)
-
+Project name: GUAVA
 A community-driven AI model that recognizes African retail products (food items, snacks, drinks, packaging, etc.) using photos uploaded by users.
 
 This project collects images through a simple website, labels them, builds a dataset, and trains a machine learning model that can identify African products. The model will later be published on Hugging Face and served through a FastAPI API.
@@ -36,7 +36,7 @@ Deployment basics
 
 Perfect for beginners who want to grow into full AI developers.
 
-🏗️ High-Level System Overview
+High-Level System Overview
 
 The system has 3 main parts:
 
@@ -77,7 +77,7 @@ Fine-tune a small vision model (EfficientNet / MobileNet / ViT)
 
 Save and publish model on Hugging Face
 
-📦 Data You Will Collect
+Data You Will Collect
 
 Categories (start small):
 
@@ -99,7 +99,7 @@ Local water brands (Bel-Aqua, Verna, etc.)
 
 10 categories is enough for v1.
 
-🗂️ Dataset Structure
+Dataset Structure
 
 Your dataset folder will look like:
 
@@ -115,9 +115,9 @@ dataset/
 
 Each folder contains user-uploaded images.
 
-🖥️ Detailed Beginner-Friendly Project Plan
+Detailed Beginner-Friendly Project Plan
 PHASE 1 — Project Setup (Week 1)
-✔ Create GitHub repository
+Create GitHub repository
 
 Structure:
 
@@ -127,11 +127,11 @@ Structure:
 /docs
 /dataset
 
-✔ Write README.md
+Write README.md
 
 Explain the vision and how others can contribute.
 
-✔ Decide initial categories (10 items)
+Decide initial categories (10 items)
 PHASE 2 — Build the FastAPI Backend (Week 1–2)
 Endpoints to build:
 POST /upload-image
